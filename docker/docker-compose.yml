@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  notifier:
+    image: apergia-notifier:latest
+    container_name: apergia-notifier
+    build:
+      context: ./docker
+      dockerfile: Dockerfile
