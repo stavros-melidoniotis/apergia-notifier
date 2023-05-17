@@ -1,0 +1,16 @@
+{
+  "name": "apergia-notifier",
+  "version": "1.0.0",
+  "description": "Send Telegram notifications for upcoming transportation strikes in Greece.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stavros Melidoniotis <melidon.stavros@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
